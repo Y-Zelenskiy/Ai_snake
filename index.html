@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SNAKE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <h1>Scoreboard</h1>
+        <ul id="high-scores">high-score : <p>0</p></ul>
+        <ul id="main-scores">main-score : <p>0</p></ul>
+        <ul id="count">count : <p>0</p></ul>
+        <input type="range" name="speed" id="speed" min="1" max="6000" value="1000">
+    </div>
+    <canvas id="canvas_map" class="map_area" width="800" height="800"></canvas>
+    <canvas id="canvas_move" class="move_area" width="800" height="800"></canvas>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
